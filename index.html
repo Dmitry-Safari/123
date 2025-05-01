@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Safari</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body style="background-image: url('background.jpg'); background-size: cover;">
+    <header>
+        <img src="logo.jpg" alt="Royal Safari Logo" style="height: 100px;">
+        <h1>Добро пожаловать в сердце Сибири<br>Добро пожаловать в Royal Safari</h1>
+        <nav>
+            <a href="#about">О нас</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#video">Видео</a>
+            <a href="#program">Программа</a>
+            <a href="#contacts">Контакты</a>
+            <div id="lang-switch">
+                <button onclick="setLanguage('ru')">RU</button>
+                <button onclick="setLanguage('cn')">CN</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Royal Safari — это не просто охота, это путь в сердце настоящей Сибири...</p>
+        </section>
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <img src="IMG_7406.jpg" alt="Nature View">
+            <img src="IMG_7418.jpg" alt="Room Interior">
+        </section>
+        <section id="video">
+            <h2>Видео</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Pze--ZmU0lQ" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="program">
+            <h2>Программа тура</h2>
+            <a href="program_ru.pdf" download>Скачать программу (RU)</a><br>
+            <a href="program_cn.pdf" download>Скачать программу (CN)</a>
+        </section>
+        <section id="contacts">
+            <h2>Контакты</h2>
+            <p>WhatsApp | Telegram | WeChat</p>
+        </section>
+    </main>
+</body>
+</html>
